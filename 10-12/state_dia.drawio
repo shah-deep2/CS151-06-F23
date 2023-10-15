@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-11T06:08:26.646Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="v0WbTMCL717RjyStWGcf" version="22.0.4" type="google">
+<mxfile host="app.diagrams.net" modified="2023-10-12T17:53:32.982Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="JBk4qNsN23frZtb9_3hY" version="22.0.4" type="google">
   <diagram name="Page-1" id="58cdce13-f638-feb5-8d6f-7d28b1aa9fa0">
     <mxGraphModel grid="0" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -81,7 +81,7 @@
           <mxGeometry y="35" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2a3bc250acf0617d-8" value="&lt;b&gt;state machine&lt;/b&gt;&amp;nbsp;Bank ATM" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;width=211;height=31;" vertex="1" parent="1">
-          <mxGeometry x="25" y="53" width="1050" height="745" as="geometry" />
+          <mxGeometry x="15" y="87" width="1050" height="745" as="geometry" />
         </mxCell>
         <mxCell id="2a3bc250acf0617d-9" style="edgeStyle=orthogonalEdgeStyle;html=1;labelBackgroundColor=none;endArrow=open;endSize=8;strokeColor=#000000;fontFamily=Verdana;fontSize=12;align=left;fillColor=none;" edge="1" parent="1" source="382b91b5511bd0f7-1" target="382b91b5511bd0f7-6">
           <mxGeometry relative="1" as="geometry" />
@@ -93,7 +93,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ulhHq2SLIuZRjMTelluO-7" value="turn off / startUp" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="2a3bc250acf0617d-10">
+        <mxCell id="ulhHq2SLIuZRjMTelluO-7" value="turn on / startUp" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="2a3bc250acf0617d-10">
           <mxGeometry x="-0.6685" y="-3" relative="1" as="geometry">
             <mxPoint x="48" y="8" as="offset" />
           </mxGeometry>
