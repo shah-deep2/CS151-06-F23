@@ -1,0 +1,37 @@
+Task 1: (20 minutes)
+i.     Create a class A and a class B that inherits from A.
+ii.    In both classes A and B, create a default constructor that prints "in A" and "in B" respectively.
+iii.   In both classes A and B, create a parameterized constructor that takes an integer "n" as an input/parameter and prints "in A {n}" and "in B {n}" respectively.
+iv.    Create an object of B using the parameterized constructor and check the output.
+v.     Inside the default constructor of B, try to call both super() and this(1). Comment this(..) if it gives error.
+vi.    In class A, create method "protected void config()" that prints "config A".
+vii.   In class B, override this method and print "config B".
+viii.  In class A, define attribute num as "static int num;".
+ix.    Inside a static block, initalize num=1 and print "static {num}".
+x.     Set class B as final. Example: final class B ...
+xi.    Create another object of B with reference type of A, as "A obj2 = new B(3);"
+xii.   Call config with first object.
+xiii.  Call config with second object (obj2).
+xiv.   Try type casting obj2 and call config() to see if anything changes.
+xv.    In class B, create a method "void onlyB()" that prints "Only in B".
+xvi.   Find way to call this method using obj2.
+xvii.  Analyze the entire code and see what works and WHY. Play around with the code to see what works and what doesn't. Ask me for any queries.
+
+
+
+
+Task 2: (15 minutes)
+i.    Create an abstract class A.
+ii.   Create a class B that inherits from A.
+iii.  Create 4 interfaces: W, X, Y, Z.  Example: interface W { }   interface X { } ...
+iv.   Interface Z should inherit from the interfaces X and Y.
+v.    Class B should implement the interfaces W and Z.
+vi.   Try creating objects of the classes & interfaces. Keep the ones that work without error.
+vii.  Create an object of class B as "B b = new B();"
+viii. Try changing the reference type of variable "b". Example: From "B b" to "A b", "X b", ...
+ix.   Check what all works and if any gives error while running the code, even if code compiles successfully.
+x.    In class A, create method "void show(int n)" that prints "Showing {n}".
+xi.   In class A, create another method "void show(double n)" that prints:   this.getClass()+" "+n 
+xii.  Using variable "b", try to call the show method. Try passing different parameters such as "1" and "1.0".
+xiii. Write a Javadoc Comment for one of the show methods.
+xiv.  Analyze the entire code and see what works and why. Play around with the code to see what works and what doesn't. Ask me for any queries.
